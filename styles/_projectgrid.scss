@@ -1,0 +1,57 @@
+.grid__container {
+    width: 1110px;
+    height: 1960px;
+    display: grid;
+    grid-template-rows: repeat(32, 1fr);
+    grid-template-columns: repeat(9, 1fr);
+    gap: 20px;
+}
+
+.element--dancing {
+    grid-row: 1 / span 7;
+    grid-column: 1 / span 3;
+}
+.element--cactus {
+    grid-row: 8 / span 8;
+    grid-column: 1 / span 3;
+}
+.element--sheet {
+    grid-row: 16 / span 8 ;
+    grid-column: 1 / span 3;
+}
+.element--field {
+    grid-row: 24 / span 9;
+    grid-column: 1 / span 3;
+}
+.element--sunglasses {
+    grid-row: 1 / span 6;
+    grid-column: 4 / span 3;
+}
+.element--liberty {
+    grid-row: 7 / span 7;
+    grid-column: 4 / span 3;
+}
+.element--walking {
+    grid-row: 14 / span 9;
+    grid-column: 4 / span 3;
+}
+.element--desert {
+    grid-row: 23 / span 10;
+    grid-column: 4 / span 3;
+}
+.element--flowers {
+    grid-row: 1 / span 10;
+    grid-column: 7 / span 3;
+}
+.element--paint {
+    grid-row: 11 / span 7;
+    grid-column: 7 / span 3;
+}
+.element--piano {
+    grid-row: 18 / span 9;
+    grid-column: 7 / span 3;
+}
+.element--trees {
+    grid-row: 27 / span 6;
+    grid-column: 7 / span 3;
+}
