@@ -1,12 +1,16 @@
 
-.nav {
-    &__li {
-        font-family: $main-font;
-        color: $main-txt-color;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 18px;
-        line-height: 23px;
-        letter-spacing: -35px;
+.nav{
+    &__ul{
+        list-style-type: none;
+        &__li {
+            font-family: fonts.$main-font;
+            color: fonts.$main-txt-color;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 23px;
+            letter-spacing: -35px;
+        }
     }
 }
+

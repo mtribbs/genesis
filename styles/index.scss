@@ -1,1 +1,19 @@
-@import 'projectgrid'
+@use 'fonts';
+
+@import 'projectgrid';
+@import 'main';
+@import 'header';
+@import 'sections';
+
+body {
+    max-width: 1360px;
+    width: 100%;
+    font-family: fonts.$main-font;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
