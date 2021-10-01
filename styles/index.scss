@@ -5,6 +5,7 @@
 @import 'header';
 @import 'sections';
 @import 'awards';
+@import 'footer';
 
 body {
     max-width: 1360px;
@@ -14,4 +15,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+}
+
+a:link {
+    text-decoration: none;
+    color: fonts.$main-txt-color;
+}
+
+a:visited {
+    text-decoration: none;
+    color: fonts.$secondary-txt-color;
+}
+
+a:hover {
+    color: fonts.$secondary-txt-color;
+    opacity: 0.6;
 }

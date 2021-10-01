@@ -7,128 +7,136 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9ea22a13b1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/index.css">
     <title>Genesis</title>
 </head>
 <body>
-    <div class="grid--body">
-        <header class="header">
-            <nav class="nav">
-                <svg class="nav__logo" id="logo" width="91" height="20" viewBox="0 0 91 20">
-                    <use xlink:href="images/logo.svg#logo"></use>
+    <header class="header">
+        <nav class="nav">
+            <svg class="nav__logo" id="logo" width="91" height="20" viewBox="0 0 91 20">
+                <use xlink:href="images/logo.svg#logo"></use>
+            </svg>
+            <ul class="nav__ul">
+                <li class="nav__li li--one"><a href="#projects">Projects</a></li>
+                <li class="nav__li li--two"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="section section--one">
+            <div>
+                <h2 class="section__title title--one">Shooting Stars</h2>
+                <p class="section__text text--one">Hello, I’m Bakhtiyar Sattarov, <span>product designer</span> with experience in studios and startups</p>
+            </div>
+            <div class="quote">
+                <svg class="quote-line" width="30" height="4" viewbox="0 0 30 4">
+                    <line x1="0" y1="0" x2="30" y2="0" stroke="#111111" stroke-width="4"/>
                 </svg>
-                <ul class="nav__ul">
-                    <li class="nav__li">Projects</li>
-                    <li class="nav__li">Contact</li>
+                <p>Design is about progress</p>
+            </div>
+        </div>
+        <div class="grid__container" id="projects">
+            <div class="grid__element element--dancing">
+                <img src="/images/dancing.png" alt="">
+            </div>
+            <div class="grid__element element--sunglasses">
+                <img src="/images/sunglasses.png" alt="">
+            </div>
+            <div class="grid__element element--flowers">
+                <img src="images/flowers.png" alt="">
+            </div>
+            <div class="grid__element element--cactus">
+                <img src="images/cactus.png" alt="">
+            </div>
+            <div class="grid__element element--liberty">
+                <img src="images/liberty.png" alt="">
+            </div>
+            <div class="grid__element element--paint">
+                <img src="images/paint.png" alt="">
+            </div>
+            <div class="grid__element element--sheet">
+                <img src="images/sheet.png" alt="">
+            </div>
+            <div class="grid__element element--walking">
+                <img src="images/walking.png" alt="">
+            </div>
+            <div class="grid__element element--piano">
+                <img src="images/piano.png" alt="">
+            </div>
+            <div class="grid__element element--field">
+                <img src="images/field.png" alt="">
+            </div>
+            <div class="grid__element element--desert">
+                <img src="images/desert.png" alt="">
+            </div>
+            <div class="grid__element element--trees">
+                <img src="images/trees.png" alt="">
+            </div>
+        </div>
+        <div class="section section--two" id="contact">
+                <p class="section__text text--two">We love work hard and explore new things that’s why we cover lot of things. Check our service list and view details</p>
+                <ul class="section__list">
+                    <li class="section__item">Multimedia</li>
+                    <li class="section__item">Interactive Design</li>
+                    <li class="section__item">Branding</li>
                 </ul>
-            </nav>
-        </header>
-        <main>
-            <div class="section section--one">
-                <div>
-                    <h2 class="section__title title--one">Shooting Stars</h2>
-                    <p class="section__text text--one">Hello, I’m Bakhtiyar Sattarov, <span>product designer</span> with experience in studios and startups</p>
+                <ul class="section__list">
+                    <li class="section__item">Creative Design</li>
+                    <li class="section__item">Packaging</li>
+                    <li class="section__item">Coding</li>
+                </ul>
+        </div>
+        <div class="award__container container--one">
+                <h3 class="award__title award__title--first">Awwwards</h3>
+                <!--award-one-->
+                <h4 class="award__name name--one">Site of the day</h4>
+                <div class="award__product product--one">
+                    <h5 class="product__title">Genesis UI Kit</h5>
+                    <p class="product__text">Application that helps to find nearest sport centres</p>
                 </div>
-                <div class="quote">
-                    <p>Design is about progress</p>
+                <h5 class="award__year year--one">2018</h5>
+                <!--award-two-->
+                <h4 class="award__name name--two">Best Navigation</h4>
+                <div class="award__product product--two">
+                    <h5 class="product__title">Genesis Template</h5>
+                    <p class="product__text">Application that helps to find nearest sport centres</p>
+                </div>    
+                    <h5 class="award__year year--two">2018</h5>
+        </div>
+        <div class="award__container container--two">
+            <h3 class="award__title award__title--second">CSSDesignAwards</h3>
+                <!--award-three-->
+                <h4 class="award__name name--three">Site of the day</h4>
+                <div class="award__product product--three">
+                    <h5 class="product__title">Genesis UI Kit</h5>
+                    <p class="product__text">Application that helps to find nearest sport centres</p>
                 </div>
+                <h5 class="award__year year--three">2017</h5>
+                <!--award-four-->
+                <h4 class="award__name name--four">Best Navigation</h4>
+                <div class="award__product product--four">
+                    <h5 class="product__title">Genesis Template</h5>
+                    <p class="product__text">Application that helps to find nearest sport centres</p>
+                </div>
+                <h5 class="award__year year--four">2016</h5>                     
+        </div>
+    </main>
+    <footer class="footer">
+            <svg class="footer__logo" id="logo" width="91" height="20" viewBox="0 0 91 20">
+                <use xlink:href="images/logo.svg#logo"></use>
+            </svg>
+            <div class="footer__list">
+                <ul class="footer__ul">
+                    <li class="footer__li"><a href="#projects">Projects</a></li>
+                    <li class="footer__li"><a href="#contact">Contact</a></li>
+                </ul>
+                <ul class="footer__ul">
+                    <li class="footer__li"><a href="https://twitter.com/" target="blank" class="fab fa-instagram"></a></li>
+                    <li class="footer__li"><a href="https://dribbble.com/tags/dribbler" target="blank" class="fab fa-dribbble"></a></li>
+                    <li class="footer__li"><a href="https://twitter.com/" target="blank" class="fab fa-twitter"></a></li>
+                </ul>  
             </div>
-            <div class="grid__container">
-                <div class="grid__element element--dancing">
-                    <img src="/images/dancing.png" alt="">
-                </div>
-                <div class="grid__element element--sunglasses">
-                    <img src="/images/sunglasses.png" alt="">
-                </div>
-                <div class="grid__element element--flowers">
-                    <img src="images/flowers.png" alt="">
-                </div>
-                <div class="grid__element element--cactus">
-                    <img src="images/cactus.png" alt="">
-                </div>
-                <div class="grid__element element--liberty">
-                    <img src="images/liberty.png" alt="">
-                </div>
-                <div class="grid__element element--paint">
-                    <img src="images/paint.png" alt="">
-                </div>
-                <div class="grid__element element--sheet">
-                    <img src="images/sheet.png" alt="">
-                </div>
-                <div class="grid__element element--walking">
-                    <img src="images/walking.png" alt="">
-                </div>
-                <div class="grid__element element--piano">
-                    <img src="images/piano.png" alt="">
-                </div>
-                <div class="grid__element element--field">
-                    <img src="images/field.png" alt="">
-                </div>
-                <div class="grid__element element--desert">
-                    <img src="images/desert.png" alt="">
-                </div>
-                <div class="grid__element element--trees">
-                    <img src="images/trees.png" alt="">
-                </div>
-            </div>
-            <div class="section section--two">
-                    <p class="section__text text--two">We love work hard and explore new things that’s why we cover lot of things. Check our service list and view details</p>
-                    <ul class="section__list">
-                        <li class="section__item">Multimedia</li>
-                        <li class="section__item">Interactive Design</li>
-                        <li class="section__item">Branding</li>
-                    </ul>
-                    <ul class="section__list">
-                        <li class="section__item">Creative Design</li>
-                        <li class="section__item">Packaging</li>
-                        <li class="section__item">Coding</li>
-                    </ul>
-            </div>
-            <div class="award__container container--one">
-                    <h3 class="award__title award__title--first">Awwwards</h3>
-                    <!--award-one-->
-                    <h4 class="award__name name--one">Site of the day</h4>
-                    <div class="award__product product--one">
-                        <h5 class="product__title">Genesis UI Kit</h5>
-                        <p class="product__text">Application that helps to find nearest sport centres</p>
-                    </div>
-                    <h5 class="award__year year--one">2018</h5>
-                    <!--award-two-->
-                    <h4 class="award__name name--two">Best Navigation</h4>
-                    <div class="award__product product--two">
-                        <h5 class="product__title">Genesis Template</h5>
-                        <p class="product__text">Application that helps to find nearest sport centres</p>
-                    </div>    
-                        <h5 class="award__year year--two">2018</h5>
-            </div>
-            <div class="award__container container--two">
-                <h3 class="award__title award__title--second">CSSDesignAwards</h3>
-                    <!--award-three-->
-                    <h4 class="award__name name--three">Site of the day</h4>
-                    <div class="award__product product--three">
-                        <h5 class="product__title">Genesis UI Kit</h5>
-                        <p class="product__text">Application that helps to find nearest sport centres</p>
-                    </div>
-                    <h5 class="award__year year--three">2017</h5>
-                    <!--award-four-->
-                    <h4 class="award__name name--four">Best Navigation</h4>
-                    <div class="award__product product--four">
-                        <h5 class="product__title">Genesis Template</h5>
-                        <p class="product__text">Application that helps to find nearest sport centres</p>
-                    </div>
-                    <h5 class="award__year year--four">2016</h5>                     
-            </div>
-        </main>
-        <footer class="footer">
-            <h3 class="footer__logo">Genesis</h3>
-            <ul class="footer__ul">
-                <li class="footer__li">Projects</li>
-                <li class="footer__li">Contact</li>
-                <!--icon-->
-                <!--icon-->
-                <!--icon-->
-            </ul>  
-        </footer>
-    </div>
+    </footer>
 </body>
 </html>

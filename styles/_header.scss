@@ -1,16 +1,33 @@
 
+.header {
+    max-width: 1110px;
+    width: 100%;
+}
+
 .nav{
-    &__ul{
-        list-style-type: none;
-        &__li {
-            font-family: fonts.$main-font;
-            color: fonts.$main-txt-color;
-            font-weight: 700;
-            font-style: normal;
-            font-size: 18px;
-            line-height: 23px;
-            letter-spacing: -35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+        &__ul{
+            list-style-type: none;
+            display: inline-flex;
         }
-    }
+}
+
+.nav__li {
+    font-family: fonts.$main-font;
+    color: fonts.$main-txt-color;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.35px;
+    display: inline
+}
+
+.li--one {
+    margin-right: 30px;
 }
 
