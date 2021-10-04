@@ -31,3 +31,17 @@
     margin-right: 30px;
 }
 
+a:link {
+    text-decoration: none;
+    color: fonts.$main-txt-color;
+}
+
+a:visited {
+    text-decoration: none;
+    color: fonts.$secondary-txt-color;
+}
+
+a:hover {
+    color: fonts.$secondary-txt-color;
+    opacity: 0.6;
+}

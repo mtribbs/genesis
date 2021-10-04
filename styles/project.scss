@@ -1,0 +1,21 @@
+
+@use 'fonts';
+
+@import 'header';
+@import 'footer';
+@import 'project-info';
+@import 'project-imgs';
+
+
+body {
+    max-width: 1360px;
+    width: 100%;
+    font-family: fonts.$main-font;
+    color: fonts.$main-txt-color;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
