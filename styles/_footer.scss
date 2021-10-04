@@ -17,7 +17,6 @@
     font-family: fonts.$main-font;
     color: fonts.$main-txt-color;
     font-weight: bold;
-    font-style: normal;
     font-size: 18px;
     line-height: 23px;
     /* identical to box height */
@@ -26,3 +25,17 @@
     display: inline;
 }
 
+a:link {
+    text-decoration: none;
+    color: fonts.$main-txt-color;
+}
+
+a:visited {
+    text-decoration: none;
+    color: fonts.$secondary-txt-color;
+}
+
+a:hover {
+    color: fonts.$secondary-txt-color;
+    opacity: 0.6;
+}
